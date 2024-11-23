@@ -1,8 +1,9 @@
 import './App.css'
 
 //Imports
-import Static from './components/Static.jsx'
+import ReactFacts from './components/ReactFacts.jsx'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx';
 
 // NavBar
 import { Route, Routes } from 'react-router-dom';
@@ -16,9 +17,10 @@ return (
       <Header />
       <Routes>
         <Route/>
-          <Route path='/Static' element={<Static />} />
+          <Route path='/ReactFacts' element={<ReactFacts />} />
         </Routes>
     </nav>
+      <Footer/>
   </div>
   </>
   )
