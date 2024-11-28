@@ -1,6 +1,10 @@
 .navBar{
-    border: 2px solid slategray;
+    border: 1px solid slategray;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
+}
+
+.navBar a {
+    padding: 5px;
 }

@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+}
+
+/* Header.jsx */
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+header h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+/* Entry.jsx */
+.entryContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+    background-color: snow;
+    padding: 20px;
+}
+
+.photoContainer img {
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+}
+
+.titleContainer h1 {
+    margin: 0;
+}
+
+.titleContainer img{
+    width: 15px;
+    height: auto;
+    margin: 0;
+}
+
+.titleContainer .countryText {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline;
+    margin: 0;
+}
+
+.titleContainer .dateText {
+    margin: 0;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.titleContainer span {
+    margin-left: 10px;
+    font-size: 10px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.titleContainer .descText {
+    width: 500px;
+}
