@@ -6,8 +6,9 @@ function Jokes(props) {
         <>
         <div className={styles.jokeCard}>
             <h1>Joke #{props.jokeNumber}</h1>
-            <h3>{props.jokeSetup}</h3>
+            {props.jokeSetup && <h3>{props.jokeSetup}</h3>}
             <h4>{props.jokePunchLine}</h4>
+            <h5>{props.upvotes}</h5>
         </div>
         </>
     )
