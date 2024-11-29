@@ -36,7 +36,7 @@ header h1 {
 .photoContainer img {
     border-radius: 15px;
     width: 250px;
-    height: auto;
+    height: 150px;
 }
 
 .titleContainer h1 {
@@ -70,5 +70,7 @@ header h1 {
 }
 
 .titleContainer .descText {
+    margin: 0;
+    font-size: 14px;
     width: 500px;
 }
