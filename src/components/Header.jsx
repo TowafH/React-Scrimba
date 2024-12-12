@@ -11,6 +11,9 @@ return(
             <Link to='/TravelJournal'>TravelJournal</Link>
             <Link to='/CatContact'>CatContact</Link>
             <Link to='/JokesApp'>JokesApp</Link>
+            <Link to='/ChefClaude'>ChefClaude</Link>
+            <Link to='/Question'>Question</Link>
+            <Link to='/Ternary'>Ternary</Link>
         </div>
     )
 }
